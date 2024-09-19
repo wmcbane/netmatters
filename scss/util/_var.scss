@@ -1,1 +1,13 @@
+//colours
+
 $bgcolor:#323544;
+$bgcolordark:#212330;
+
+//breakpoint map. used in break() mixin
+$breakpoints:(
+        
+        's':768px,
+        'm':992px,
+        'l':1260px,
+
+)

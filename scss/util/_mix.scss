@@ -1,0 +1,7 @@
+
+//simple media query mixin. allows content to be passed, just simplifies typing a bit and allows sitewide breakpoint value changes
+@mixin break($brk){
+    @media (min-width:#{map-get($breakpoints, $brk)}){
+        @content;
+    }
+}
