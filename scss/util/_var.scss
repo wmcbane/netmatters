@@ -5,9 +5,15 @@ $bgcolordark:#212330;
 
 //breakpoint map. used in break() mixin
 $breakpoints:(
-        
+        'xs':480px,
         's':768px,
         'm':992px,
         'l':1260px,
 
-)
+);
+
+//font directory
+$fontdir:'../../fonts';
+
+//icomoon fonts - without filetype
+$icofnt:'#{$fontdir/icomoon}'
