@@ -382,6 +382,11 @@ body {
 }
 
 /* line 9, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
+.hide {
+  display: none;
+}
+
+/* line 13, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -390,21 +395,21 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* line 9, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
+  /* line 13, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
   .container {
     width: 750px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 9, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
+  /* line 13, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
   .container {
     width: 970px;
   }
 }
 
 @media (min-width: 1260px) {
-  /* line 9, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
+  /* line 13, ../../Documents/NetmattersProjects/Netmatters/scss/base/_layout.scss */
   .container {
     width: 1200px;
   }
