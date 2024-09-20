@@ -29,3 +29,24 @@ box-sizing: border-box;
     }
 
 }
+
+[class^="btn-"]{
+
+    padding:10px 30px;
+    border-radius:6px;
+    background-color: black;
+    color:#fff;
+    text-decoration:none;
+    line-height:34px;
+
+}
+.icon-arrow-right{
+
+    height:20px;
+    line-height:20px;
+    padding-left:12px;
+    &:before{
+        content:"\ea3c";
+        font-size:1.25rem;
+    }    
+}
