@@ -21,24 +21,39 @@ footer {
         }
     }
 
+    .footer-socials{
+        margin-bottom:30px;
+        display:flex;
+        
+        flex-wrap:wrap;
 
-    .icon{
+        a{
+            background-color:$bgcolordark;
+            &:hover{
 
-        &-fb::before{
-            content:"\ea90";
-        }
-        &-li::before{
-            content:"\eaca";
-        }
-        &-x::before{
-            content:"\e900";
-        }
-        &-in::before{
-            content:"\ea92";
+                background-color:#0077B5;
+            }
+
         }
 
+
+        .icon{
+            flex: 1 calc(50% - 10px);
+            &-fb::before{
+                content:"\ea90";
+            }
+            &-li::before{
+                content:"\eaca";
+            }
+            &-x::before{
+                content:"\e900";
+            }
+            &-in::before{
+                content:"\ea92";
+            }
+
+        }
     }
-
 
     .footer-row {
         display: flex;

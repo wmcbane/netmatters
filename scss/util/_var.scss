@@ -13,7 +13,8 @@ $breakpoints:(
 );
 
 //font directory
-$fontdir:'../../fonts';
+$fontdir:'../fonts';
 
 //icomoon fonts - without filetype
-$icofnt:'#{$fontdir/icomoon}'
+$icofnt:#{$fontdir}/icomoon;
+$icofntsuffix:'?h4tyft';
