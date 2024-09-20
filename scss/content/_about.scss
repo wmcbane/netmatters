@@ -1,0 +1,103 @@
+section.about{
+    background-color:$bgcolor;
+    padding:50px 15px;
+    .about-col{
+
+        &:not(:last-child){
+            padding-bottom:50px;
+        }
+        
+        color:white;
+
+        &:first-child, .quote-author{
+            line-height:1.875;
+        }
+
+        a{
+
+            text-decoration:none;
+            color:white;
+
+        }
+
+        div.icon-stars, p, em, strong{
+            display:block;
+            margin-top:0px;
+            margin-bottom:25px;
+        }
+
+
+
+        .icon-stars{
+            text-align:left;
+            
+            &:before{
+
+                content: "\f005 \f005 \f005 \f005 \f005";
+                color:orange;
+                font-size:50px;
+                letter-spacing:5px;
+                 
+            }
+        }
+
+
+        em, strong, .quote-author{
+
+            font-weight:600;
+        }
+        em{
+
+            
+            font-size:1.3em;
+            line-height:1.5;
+        }
+
+
+        .about-buttons{
+            
+
+            [class^="btn-"]{
+                &:first-child{
+
+                    margin-right:5px;
+    
+                }
+
+                display:inline-block;
+                text-transform:uppercase;
+                font-size:1.25rem;
+                
+                
+                
+            }
+            .btn-grey{
+                background-color:#272936;
+            }
+            .btn-google{
+                background-color:#4387f6;
+            }
+            .btn-trustp{
+                background-color:#00B67B;
+            }
+
+
+
+        }      
+
+        .quote-author{
+            margin-bottom:45px;
+            font-size:1.1em;
+            color:#a3a8ac;
+
+            a:hover{
+
+                text-decoration:underline;
+
+            }
+        }
+    }
+
+
+
+}
