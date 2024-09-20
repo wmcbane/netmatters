@@ -24,21 +24,31 @@ footer {
     .footer-socials{
         margin-bottom:30px;
         display:flex;
-        
+        max-width:220px;
         flex-wrap:wrap;
+        gap:10px;
+        min-width:200px;
+
+        
 
         a{
             background-color:$bgcolordark;
+            flex: 1 calc(50% - 10px);
+            
             &:hover{
 
                 background-color:#0077B5;
             }
+            span{
+                display:block;
+               padding:12px 22px;
 
+            }
         }
 
 
         .icon{
-            flex: 1 calc(50% - 10px);
+            
             &-fb::before{
                 content:"\ea90";
             }
@@ -51,6 +61,11 @@ footer {
             &-in::before{
                 content:"\ea92";
             }
+
+        }
+        @include break(xs){
+            flex-wrap:nowrap;
+            
 
         }
     }
